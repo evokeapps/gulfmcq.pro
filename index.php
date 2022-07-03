@@ -15,9 +15,9 @@
             <div class="container py-5">
                 <div class="row py-5">
                     <div class="col-12 col-md-8 offset-md-2 text-center">
-                        <div class="fs-1 text-warning">Get instant access to a completely free, comprehensive MCQ collection</div>
+                        <div class="fs-1 text-white">Get instant access to a completely free, comprehensive MCQ collection</div>
                         <br>
-                        <div class="fs-5 text-white">For Prometricᵀᴹ DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA, PLAB & USMLE exams…</div>
+                        <div class="fs-4 text-warning">For Prometricᵀᴹ DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA and PLAB/USMLE like exams…</div>
                         <br>
                         <a href="/404.php" class="btn btn-success btn-lg">Browse Library</a>
                     </div>
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col fs-6 text-center text-secondary">* Gulf MCQ Pro was originally designed with doctors from resource-limited settings in mind, which is why it is completely free. We hope it will be extremely beneficial to doctors and general practitioners in Sri Lanka, India, Pakistan, and Bangladesh.</div>
+            <div class="col-12 col-md-8 offset-md-2 fs-6 text-center text-secondary">* Gulf MCQ Pro was originally designed with doctors from resource-limited settings in mind, which is why it is completely free. We hope it will be extremely beneficial to doctors and general practitioners in Sri Lanka, India, Pakistan, and Bangladesh.</div>
         </div>
         <div class="row text-center mb-5">
             <div class="col-12 col-md-8 offset-md-2 text-center">
@@ -181,12 +181,12 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2">
-                <div class="bg-light p-5 text-center shadow rounded">
+                <div class="bg-white p-5 text-center shadow border rounded">
                     <div class="fs-4 text-success">We would love to hear what you think about Gulf MCQ Pro!</div>
                     <br>
                     <div class="fs-6">Please contact us if you have any suggestions, MCQ stems, explanations, or problems with the explanations provided.</div>
                     <br>
-                    <a href="mailto:evokeapps@yahoo.com" class="btn btn-outline-dark fw-bold">Email Us</a>
+                    <a href="mailto:evokeapps@yahoo.com" class="btn btn-outline-success fw-bold">Email Us</a>
                     <br>
                     <br>
                     <a href="https://www.buymeacoffee.com/gulfmcqpro" target="_blank">
