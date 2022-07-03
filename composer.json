@@ -1,0 +1,17 @@
+{
+    "name": "evokeapps/gulfmcq.pro",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Evokeapps\\GulfmcqPro\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "evokeapps"
+        }
+    ],
+    "require": {
+        "rakibtg/sleekdb": "^2.13"
+    }
+}

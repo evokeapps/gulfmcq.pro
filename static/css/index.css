@@ -1,0 +1,9 @@
+.header {
+  background-image: url("/static/img/doctor.webp");
+  background-position: center;
+  background-size: cover;
+}
+.header-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 50vh;
+}

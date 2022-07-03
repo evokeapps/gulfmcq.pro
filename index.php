@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <?php include_once(__DIR__ . '/comp/head.php'); ?>
+    <link rel="stylesheet" href="/static/css/index.css">
+    <title>Gulf MCQ Pro - The best free Prometricᵀᴹ based DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA, PLAB and USMLE Qbank | Become a GP in UAE, Dubai, Saudi Arabia, Abu Dhabi, Bahrain, Oman and Qatar.</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <?php include_once(__DIR__ . '/comp/header.php'); ?>
+    <div class="header">
+        <div class="header-overlay py-5">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                        <div class="fs-1 text-warning">Get instant access to a completely free, comprehensive MCQ collection</div>
+                        <br>
+                        <div class="fs-5 text-white">For Prometricᵀᴹ DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA, PLAB & USMLE exams…</div>
+                        <br>
+                        <a href="/404.php" class="btn btn-success btn-lg">Browse Library</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <div class="row mb-5">
+            <div class="col-12 col-md-8 offset-md-2 text-center">
+                <div class="fs-2 text-success">Practice makes you perfect!</div>
+                <br>
+                <div class="fs-5">Gulf MCQ <sup>Pro</sup> is a growing, comprehensive Prometricᵀᴹ inspired question bank to help you revise for DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA, PLAB and USMLE exams.</div>
+            </div>
+        </div>
+        <div class="row g-5 mb-5">
+            <div class="col-12 col-md-4 text-center">
+                <div class="shadow shadow-sm border py-5 px-3 h-100 rounded"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16" class="mb-3 bi bi-collection">
+                        <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"></path>
+                    </svg>
+                    <div class="fs-5 mb-2 fw-bold text-success">LARGE LIBRARY</div>
+                    <div class="fs-6 text-muted">Practice and learn with a large collection of revised MCQs based on the Prometricᵀᴹ format.</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <div class="shadow shadow-sm border py-5 px-3 h-100 rounded"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16" class="mb-3">
+                        <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 0 .5Zm0 2A.5.5 0 0 1 .5 2h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5Zm9 0a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5Zm-9 2A.5.5 0 0 1 .5 4h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Zm5 0a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5Zm7 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Zm-12 2A.5.5 0 0 1 .5 6h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5Zm8 0a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5Zm-8 2A.5.5 0 0 1 .5 8h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5Zm7 0a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5Zm-7 2a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Z"></path>
+                    </svg>
+                    <div class="fs-5 mb-2 fw-bold text-success">QUICK REVISIONS</div>
+                    <div class="fs-6 text-muted">Revision notes are provided to quickly review important subject matter.</div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 text-center">
+                <div class="shadow shadow-sm border py-5 px-3 h-100 rounded"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16" class="mb-3 bi bi-box2-heart">
+                        <path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+                        <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+                    </svg>
+                    <div class="fs-5 mb-2 fw-bold text-success">COMPLETELY FREE</div>
+                    <div class="fs-6 text-muted">There are no hidden fees or charges for any of the content. It's completely free!*</div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col fs-6 text-center text-secondary">* Gulf MCQ Pro was originally designed with doctors from resource-limited settings in mind, which is why it is completely free. We hope it will be extremely beneficial to doctors and general practitioners in Sri Lanka, India, Pakistan, and Bangladesh.</div>
+        </div>
+        <div class="row text-center mb-5">
+            <div class="col-12 col-md-8 offset-md-2 text-center">
+                <div class="fs-2 text-success">Download our mobile app for a better experience!</div>
+                <img src="/static/img/screenshot.webp" alt="" srcset="" class="img-fluid">
+                <br>
+                <a href="https://play.google.com/store/apps/details?id=com.evokeapps.gulfmcqpro&amp;utm_source=web&amp;utm_campaign=web&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" style="max-width: 20rem;" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" class="img-fluid"></a>
+            </div>
+        </div>
+    </div>
+    <div class="py-5 bg-dark shadow">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-8 offset-md-2 text-center">
+                    <div class="fs-2 text-warning mb-3 text-center">Dream big and make it a reality!</div>
+                    <div class="mb-5 fs-6 text-light">With our up-to-date question bank, you can prepare for the DHA Exam (Dubai Health Authority), previously known as DOH (Department of Health) to work in Dubai, MOH Exam (Ministry of Health in UAE &amp; Kuwait) where you can work in all Emirates such as Sharjah, Ajman, Umm Al Quwain, Fujairah, and Ras Al Khaimah, DHCC (Dubai Health Care City) to work in Health care city area in Dubai (National Health Regulatory Authority, Bahrain).</div>
+                    <a href="/404.php" class="btn btn-outline-warning btn-lg">Browse Library</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <div class="row mb-5">
+            <div class="col fs-2 text-center">Frequenty asked questions</div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-8 offset-md-2">
+                <div class="accordion" id="faq">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is Gulf MCQ Pro?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                Gulf MCQ <sup>Pro</sup> is a rapidly expanding online multiple-choice question bank that can assist in the preparation for Prometricᵀᴹ examinations to become a qualified General Practitioner in Gulf countries. The format and substance of all questions are based on the Prometricᵀᴹ format and content.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Why should you use Gulf MCQ Pro?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                We are a group of practicing GPs who have passed the exam by using these questions. We have over 5 years of expertise in medical education and teaching for Prometricᵀᴹ exam preparation. As a result, we decided to make all of these high-yielding questions available to GPs studying for the Prometricᵀᴹ exam.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How much does it cost to use Gulf MCQ Pro?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                The content, including discussions, on Gulf MCQ <sup>Pro</sup> is completely free. There are no additional fees. We want this to be a collaborative effort. Your donations, on the other hand, are always welcome in order to keep the website running.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What documents are typically required by authorities during the registration process?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                The following documents are typically required but are not limited to
+                                <br>
+                                <br>
+                                <ul>
+                                    <li>Course certificate (professional certificate)</li>
+                                    <li>Marks sheet</li>
+                                    <li>Experience certificates</li>
+                                    <li>Certificate of good standing from the currently registered council</li>
+                                    <li>Copy of the passport</li>
+                                    <li>BLS certificate (not essential but highly recommended)</li>
+                                    <li>Passport size photos</li>
+                                    <li>Surgical logbook for surgery specialities</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                How long is the validity of provisional registration in United Arab Emirates?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                The DHA, MOD, and HAAD licenses are only valid for a year. Depending on the Continual Medical Education (CME) points, your employer will have to renew it every year.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                What is the procedure to get a job after passing the exam?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faq">
+                            <div class="accordion-body">
+                                To view available vacancies, go to the hospital's official website and/or their career portals. You may be required to submit your resume. They also advertise their openings on well-known and reputable job boards. You can also go to their HR departments and meet with the officials.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md-8 offset-md-2">
+                <div class="bg-light p-5 text-center shadow rounded">
+                    <div class="fs-4 text-success">We would love to hear what you think about Gulf MCQ Pro!</div>
+                    <br>
+                    <div class="fs-6">Please contact us if you have any suggestions, MCQ stems, explanations, or problems with the explanations provided.</div>
+                    <br>
+                    <a href="mailto:evokeapps@yahoo.com" class="btn btn-outline-dark fw-bold">Email Us</a>
+                    <br>
+                    <br>
+                    <a href="https://www.buymeacoffee.com/gulfmcqpro" target="_blank">
+                        <img src="https://img.buymeacoffee.com/button-api/?text=Buy us a book!&amp;emoji=📖&amp;slug=gulfmcqpro&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Poppins&amp;outline_colour=000000&amp;coffee_colour=ffffff">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <?php include_once(__DIR__ . '/comp/footer.php'); ?>
+</body>
+
+</html>
