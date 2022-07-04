@@ -23,6 +23,10 @@ class DAO
     }
     function getPage($page, $pageSize = 10)
     {
-        return self::$queryBuilder->select(['stem', 'opt1', 'opt2', 'opt3', 'opt4', '_id'])->limit($pageSize)->skip(($page - 1) * $pageSize)->getQuery()->fetch();
+        return self::$queryBuilder->select(['stem', 'opt1', 'opt2', 'opt3', 'opt4', '_id'])->orderBy(['_id' => 'asc'])->limit($pageSize)->skip(($page - 1) * $pageSize)->getQuery()->fetch();
+    }
+    function getMCQ($id)
+    {
+        return self::$db->findById($id);
     }
 }

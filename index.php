@@ -83,7 +83,7 @@
                     <div class="fs-6 text-light">With our up-to-date question bank, you can prepare for the DHA Exam (Dubai Health Authority), previously known as DOH (Department of Health) to work in Dubai, MOH Exam (Ministry of Health in UAE &amp; Kuwait) where you can work in all Emirates such as Sharjah, Ajman, Umm Al Quwain, Fujairah, and Ras Al Khaimah, DHCC (Dubai Health Care City) to work in Health care city area in Dubai (National Health Regulatory Authority, Bahrain).</div>
                     <br>
                     <br>
-                    <a href="/404.php" class="btn btn-outline-warning btn-lg">Browse Library</a>
+                    <a href="/library.php" class="btn btn-outline-warning btn-lg">Browse Library</a>
                     <br>
                     <br>
                     <a target="_blank" href="https://play.google.com/store/apps/details?id=com.evokeapps.gulfmcqpro&amp;utm_source=web&amp;utm_campaign=web&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="btn btn-text text-light">Download App</a>
