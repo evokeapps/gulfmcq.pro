@@ -1,6 +1,3 @@
-body {
-  overflow-x: hidden;
-}
 .header {
   background-image: url("/static/img/doctor.webp");
   background-position: center;

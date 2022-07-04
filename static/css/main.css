@@ -1,4 +1,7 @@
 * {
   user-select: none;
-  font-family: "Rubik", sans-serif;
+  font-family: "Lato", Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  overflow-x: hidden;
 }
