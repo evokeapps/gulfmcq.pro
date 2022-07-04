@@ -14,12 +14,12 @@
         <div class="header-overlay py-5">
             <div class="container py-5">
                 <div class="row py-5">
-                    <div class="col-12 col-md-8 offset-md-2 text-center">
+                    <div class="col-12 col-md-10 offset-md-1 text-center">
                         <div class="fs-1 text-white">Get instant access to a growing collection of comprehensive QBank</div>
                         <br>
-                        <div class="fs-4 text-warning">for Prometricᵀᴹ DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA and PLAB/USMLE like exams</div>
+                        <div class="fs-4 text-warning">The best MCQ bank for DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA and PLAB/USMLE like GP exams</div>
                         <br>
-                        <a href="/404.php" class="btn btn-success btn-lg">Browse Library</a>
+                        <a href="/library.php" class="btn btn-success btn-lg">Browse Library</a>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
     </div>
     <div class="container py-5">
         <div class="row mb-5">
-            <div class="col-12 col-md-8 offset-md-2 text-center">
+            <div class="col-12 col-md-10 offset-md-1 text-center">
                 <div class="fs-2 text-success">Practice makes you perfect!</div>
                 <br>
                 <div class="fs-5">Gulf MCQ <sup>Pro</sup> is a growing, comprehensive Prometricᵀᴹ inspired question bank to help you revise for DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA, PLAB and USMLE exams.</div>
@@ -61,10 +61,10 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col-12 col-md-8 offset-md-2 fs-6 text-center text-secondary">* Gulf MCQ Pro was originally designed with doctors from resource-limited settings in mind, which is why it is completely free. We hope it will be extremely beneficial to doctors and general practitioners in Sri Lanka, India, Pakistan, and Bangladesh.</div>
+            <div class="col-12 col-md-10 offset-md-1 fs-6 text-center text-secondary">* Gulf MCQ Pro was originally designed with doctors from resource-limited settings in mind, which is why it is completely free. We hope it will be extremely beneficial to doctors and general practitioners in Sri Lanka, India, Pakistan, and Bangladesh.</div>
         </div>
         <div class="row text-center mb-5">
-            <div class="col-12 col-md-8 offset-md-2 text-center">
+            <div class="col-12 col-md-10 offset-md-1 text-center">
                 <div class="fs-2 text-success">Download our mobile app for a better experience!</div>
                 <img src="/static/img/screenshot.webp" alt="" srcset="" class="img-fluid">
                 <br>
@@ -78,12 +78,15 @@
     <div class="py-5 bg-dark shadow">
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-12 col-md-8 offset-md-2 text-center">
+                <div class="col-12 col-md-10 offset-md-1 text-center">
                     <div class="fs-2 text-warning mb-3 text-center">Dream big and make it a reality!</div>
-                    <div class="fs-5 text-light">With our up-to-date question bank, you can prepare for the DHA Exam (Dubai Health Authority), previously known as DOH (Department of Health) to work in Dubai, MOH Exam (Ministry of Health in UAE &amp; Kuwait) where you can work in all Emirates such as Sharjah, Ajman, Umm Al Quwain, Fujairah, and Ras Al Khaimah, DHCC (Dubai Health Care City) to work in Health care city area in Dubai (National Health Regulatory Authority, Bahrain).</div>
+                    <div class="fs-6 text-light">With our up-to-date question bank, you can prepare for the DHA Exam (Dubai Health Authority), previously known as DOH (Department of Health) to work in Dubai, MOH Exam (Ministry of Health in UAE &amp; Kuwait) where you can work in all Emirates such as Sharjah, Ajman, Umm Al Quwain, Fujairah, and Ras Al Khaimah, DHCC (Dubai Health Care City) to work in Health care city area in Dubai (National Health Regulatory Authority, Bahrain).</div>
                     <br>
                     <br>
                     <a href="/404.php" class="btn btn-outline-warning btn-lg">Browse Library</a>
+                    <br>
+                    <br>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.evokeapps.gulfmcqpro&amp;utm_source=web&amp;utm_campaign=web&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="btn btn-text text-light">Download App</a>
                 </div>
             </div>
         </div>
@@ -93,7 +96,7 @@
             <div class="col fs-2 text-center">Frequenty asked questions</div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-8 offset-md-2">
+            <div class="col-12 col-md-10 offset-md-1">
                 <div class="accordion" id="faq">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -185,13 +188,13 @@
     </div>
     <div class="container py-5">
         <div class="row">
-            <div class="col-12 col-md-8 offset-md-2">
+            <div class="col-12 col-md-10 offset-md-1">
                 <div class="bg-dark p-5 text-center shadow border rounded">
                     <div class="fs-4 text-warning">We would love to hear what you think about Gulf MCQ Pro!</div>
                     <br>
                     <div class="fs-6 text-white">Please contact us if you have any suggestions, MCQ stems, explanations, or problems with the explanations provided.</div>
                     <br>
-                    <a href="mailto:evokeapps@yahoo.com" class="btn btn-outline-light fw-bold">Email Us</a>
+                    <a href="mailto:evokeapps@yahoo.com" class="btn btn-outline-light btn-lg fw-bold">Email Us</a>
                     <br>
                     <br>
                     <a href="https://www.buymeacoffee.com/gulfmcqpro" target="_blank">
