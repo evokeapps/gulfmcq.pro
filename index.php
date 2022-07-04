@@ -15,9 +15,9 @@
             <div class="container py-5">
                 <div class="row py-5">
                     <div class="col-12 col-md-8 offset-md-2 text-center">
-                        <div class="fs-1 text-white">Get instant access to a completely free, comprehensive MCQ collection</div>
+                        <div class="fs-1 text-white">Get instant access to a growing collection of comprehensive QBank</div>
                         <br>
-                        <div class="fs-4 text-warning">For Prometricᵀᴹ DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA and PLAB/USMLE like exams…</div>
+                        <div class="fs-4 text-warning">for Prometricᵀᴹ DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA and PLAB/USMLE like exams</div>
                         <br>
                         <a href="/404.php" class="btn btn-success btn-lg">Browse Library</a>
                     </div>
@@ -68,7 +68,10 @@
                 <div class="fs-2 text-success">Download our mobile app for a better experience!</div>
                 <img src="/static/img/screenshot.webp" alt="" srcset="" class="img-fluid">
                 <br>
-                <a href="https://play.google.com/store/apps/details?id=com.evokeapps.gulfmcqpro&amp;utm_source=web&amp;utm_campaign=web&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" style="max-width: 20rem;" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" class="img-fluid"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.evokeapps.gulfmcqpro&amp;utm_source=web&amp;utm_campaign=web&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" style="max-width: 20rem;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" class="img-fluid"></a>
+                <br>
+                <br>
+                <a href="https://www.amazon.com/gp/product/B0B3WVGLFM"><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Available_at_amazon_appstore.png" style="max-width: 20rem;" class="img-fluid" alt="Get it on Amazon App Store"></a>
             </div>
         </div>
     </div>
@@ -77,7 +80,9 @@
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-md-8 offset-md-2 text-center">
                     <div class="fs-2 text-warning mb-3 text-center">Dream big and make it a reality!</div>
-                    <div class="mb-5 fs-6 text-light">With our up-to-date question bank, you can prepare for the DHA Exam (Dubai Health Authority), previously known as DOH (Department of Health) to work in Dubai, MOH Exam (Ministry of Health in UAE &amp; Kuwait) where you can work in all Emirates such as Sharjah, Ajman, Umm Al Quwain, Fujairah, and Ras Al Khaimah, DHCC (Dubai Health Care City) to work in Health care city area in Dubai (National Health Regulatory Authority, Bahrain).</div>
+                    <div class="fs-5 text-light">With our up-to-date question bank, you can prepare for the DHA Exam (Dubai Health Authority), previously known as DOH (Department of Health) to work in Dubai, MOH Exam (Ministry of Health in UAE &amp; Kuwait) where you can work in all Emirates such as Sharjah, Ajman, Umm Al Quwain, Fujairah, and Ras Al Khaimah, DHCC (Dubai Health Care City) to work in Health care city area in Dubai (National Health Regulatory Authority, Bahrain).</div>
+                    <br>
+                    <br>
                     <a href="/404.php" class="btn btn-outline-warning btn-lg">Browse Library</a>
                 </div>
             </div>
@@ -181,12 +186,12 @@
     <div class="container py-5">
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2">
-                <div class="bg-white p-5 text-center shadow border rounded">
-                    <div class="fs-4 text-success">We would love to hear what you think about Gulf MCQ Pro!</div>
+                <div class="bg-dark p-5 text-center shadow border rounded">
+                    <div class="fs-4 text-warning">We would love to hear what you think about Gulf MCQ Pro!</div>
                     <br>
-                    <div class="fs-6">Please contact us if you have any suggestions, MCQ stems, explanations, or problems with the explanations provided.</div>
+                    <div class="fs-6 text-white">Please contact us if you have any suggestions, MCQ stems, explanations, or problems with the explanations provided.</div>
                     <br>
-                    <a href="mailto:evokeapps@yahoo.com" class="btn btn-outline-success fw-bold">Email Us</a>
+                    <a href="mailto:evokeapps@yahoo.com" class="btn btn-outline-light fw-bold">Email Us</a>
                     <br>
                     <br>
                     <a href="https://www.buymeacoffee.com/gulfmcqpro" target="_blank">
