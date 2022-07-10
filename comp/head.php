@@ -10,7 +10,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/static/css/main.css">
 <title>Gulf MCQ Pro - The best free Prometricᵀᴹ based DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA, PLAB and USMLE Qbank | Become a GP in UAE, Dubai, Saudi Arabia, Abu Dhabi, Bahrain, Oman and Qatar.</title>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JBY7WMM40M"></script>

@@ -1,1 +1,12 @@
-{"id":1,"stem":"Known cause(s) of primary amenorrhea is\/are","opt1":"Agenesis of Mullerian system","opt2":"Kallmann syndrome","opt3":"Gonadal agenesis","opt4":"All of the above","disc":"Primary amenorrhea is defined as the absence of menses by 15 years of age. \r\n\r\nThe majority is due to chromosomal abnormalities leading to gonadal dysgenesis. Other causes include,\r\n- Gonadal dysgenesis\r\n- Mullerian agenesis\r\n- Physiological delay\r\n- Polycystic ovarian syndrome\r\n- Isolated GnRH deficiency (when associated with anosmia, it is called Kallmann syndrome)\r\n- Transvaginal septum\r\n- Weight loss\/anorexia\r\n- Hypopituitarism","ref":"UpToDate","tags":"Gynecology","_id":1}
+{
+  "id": 1,
+  "stem": "Known cause(s) of primary amenorrhea is/are",
+  "opt1": "Agenesis of Mullerian system",
+  "opt2": "Kallmann syndrome",
+  "opt3": "Gonadal agenesis",
+  "opt4": "All of the above",
+  "disc": "Primary amenorrhea is defined as the absence of menses by 15 years of age. \r\n\r\nThe majority is due to chromosomal abnormalities leading to gonadal dysgenesis. Other causes include,\r\n- Gonadal dysgenesis\r\n- Mullerian agenesis\r\n- Physiological delay\r\n- Polycystic ovarian syndrome\r\n- Isolated GnRH deficiency (when associated with anosmia, it is called Kallmann syndrome)\r\n- Transvaginal septum\r\n- Weight loss/anorexia\r\n- Hypopituitarism",
+  "ref": "UpToDate",
+  "tags": "Gynecology",
+  "_id": 1
+}

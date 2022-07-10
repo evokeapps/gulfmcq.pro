@@ -6,13 +6,13 @@ use SleekDB\Store;
 
 class DAO
 {
-    private static $instance;
-    private static $db;
-    private static $queryBuilder;
+    private static $instance = null;
+    private $db = null;
+    private $queryBuilder = null;
     private function __construct()
     {
-        self::$db = new Store('mcqs', __DIR__ . '/db');
-        self::$queryBuilder = self::$db->createQueryBuilder();
+        $this->db = new Store('mcqs', __DIR__ . '/db');
+        $this->queryBuilder = $this->db->createQueryBuilder();
     }
     static function getInstance()
     {
@@ -23,10 +23,10 @@ class DAO
     }
     function getPage($page, $pageSize = 10)
     {
-        return self::$queryBuilder->select(['stem', 'opt1', 'opt2', 'opt3', 'opt4', '_id'])->orderBy(['_id' => 'asc'])->limit($pageSize)->skip(($page - 1) * $pageSize)->getQuery()->fetch();
+        return $this->queryBuilder->select(['stem', 'opt1', 'opt2', 'opt3', 'opt4', '_id'])->orderBy(['_id' => 'asc'])->limit($pageSize)->skip(($page - 1) * $pageSize)->getQuery()->fetch();
     }
     function getMCQ($id)
     {
-        return self::$db->findById($id);
+        return $this->db->findById($id);
     }
 }
