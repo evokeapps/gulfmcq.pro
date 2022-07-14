@@ -5,7 +5,7 @@
     <?php include_once(__DIR__ . '/comp/head.php'); ?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css">
     <link rel="stylesheet" href="/static/css/index.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -14,10 +14,9 @@
         <div class="header-overlay">
             <div class="container">
                 <div class="row py-5">
-                    <div class="col-12 col-md-10 offset-md-1 text-center">
-                        <div class="fs-1 text-white">Get instant access to a growing and comprehensive Prometricᵀᴹ QBank</div>
-                        <br>
-                        <div class="fs-4 text-warning">The best MCQ bank for DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA and PLAB/USMLE like GP exams</div>
+                    <div class="col-12 col-lg-8 offset-lg-2 text-center">
+                        <div class="fs-2 text-white">Get instant access to a growing and comprehensive Prometricᵀᴹ QBank</div>
+                        <div class="fs-5 text-warning">The best MCQ bank for DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA and PLAB/USMLE like GP exams</div>
                         <br>
                         <a href="/library" class="btn btn-success btn-lg">Browse Library</a>
                     </div>
@@ -27,13 +26,13 @@
     </div>
     <div class="container py-5">
         <div class="row mb-5">
-            <div class="col-12 col-md-10 offset-md-1 text-center">
+            <div class="col-12 col-lg-10 offset-lg-1 text-center">
                 <div class="fs-2 text-success">Practice makes you perfect!</div>
                 <br>
                 <div class="fs-5">Gulf MCQ <sup>Pro</sup> is a growing, comprehensive Prometricᵀᴹ inspired question bank to help you revise for DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA, PLAB and USMLE exams.</div>
             </div>
         </div>
-        <div class="row g-5 mb-5">
+        <div class="row g-3 mb-5">
             <div class="col-12 col-md-4 text-center">
                 <div class="shadow shadow-sm border py-5 px-3 h-100 rounded"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16" class="mb-3 bi bi-collection">
                         <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"></path>
@@ -61,10 +60,10 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col-12 col-md-10 offset-md-1 fs-6 text-center text-secondary">* Gulf MCQ Pro was originally designed with doctors from resource-limited settings in mind, which is why it is completely free. We hope it will be extremely beneficial to doctors and general practitioners in Sri Lanka, India, Pakistan, and Bangladesh.</div>
+            <div class="col-12 col-lg-10 offset-lg-1 fs-6 text-center text-secondary">* Gulf MCQ Pro was originally designed with doctors from resource-limited settings in mind, which is why it is completely free. We hope it will be extremely beneficial to doctors and general practitioners in Sri Lanka, India, Pakistan, and Bangladesh.</div>
         </div>
         <div class="row text-center mb-5">
-            <div class="col-12 col-md-10 offset-md-1 text-center">
+            <div class="col-12 col-lg-10 offset-lg-1 text-center">
                 <div class="fs-2 text-success">Download our mobile app for a better experience!</div>
                 <img src="/static/img/screenshot.webp" alt="An app for getting ready for exam using Gulf MCQ Pro which is a free Prometricᵀᴹ Qbank for for DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA, PLAB and USMLE exams to become a GP in UAE, Dubai, Saudi Arabia, Abu Dhabi, Bahrain, Oman and Qatar." srcset="" class="img-fluid">
                 <br>
@@ -78,15 +77,15 @@
     <div class="py-5 bg-dark shadow">
         <div class="container">
             <div class="row d-flex align-items-center">
-                <div class="col-12 col-md-10 offset-md-1 text-center">
+                <div class="col-12 col-lg-10 offset-lg-1 text-center">
                     <div class="fs-2 text-warning mb-3 text-center">Dream big and make it a reality!</div>
                     <div class="fs-6 text-light">With our up-to-date question bank, you can prepare for the DHA Exam (Dubai Health Authority), previously known as DOH (Department of Health) to work in Dubai, MOH Exam (Ministry of Health in UAE &amp; Kuwait) where you can work in all Emirates such as Sharjah, Ajman, Umm Al Quwain, Fujairah, and Ras Al Khaimah, DHCC (Dubai Health Care City) to work in Health care city area in Dubai (National Health Regulatory Authority, Bahrain).</div>
                     <br>
                     <br>
-                    <a href="/library" class="btn btn-outline-warning btn-lg">Browse Library</a>
+                    <a href="/library" class="btn btn-warning btn-lg">Browse Library</a>
                     <br>
                     <br>
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.evokeapps.gulfmcqpro&amp;utm_source=web&amp;utm_campaign=web&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="btn btn-text text-light">Download App</a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.evokeapps.gulfmcqpro&amp;utm_source=web&amp;utm_campaign=web&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="btn btn-outline-light">Download App</a>
                 </div>
             </div>
         </div>
@@ -96,7 +95,7 @@
             <div class="col fs-2 text-center">Frequenty asked questions</div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-10 offset-md-1">
+            <div class="col-12 col-lg-10 offset-lg-1">
                 <div class="accordion" id="faq">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -186,25 +185,24 @@
             </div>
         </div>
     </div>
-    <div class="container py-5">
+    <div class="container-fluid py-5 bg-dark">
         <div class="row">
-            <div class="col-12 col-md-10 offset-md-1">
-                <div class="bg-dark p-5 text-center shadow border rounded">
-                    <div class="fs-4 text-warning">We would love to hear what you think about Gulf MCQ Pro!</div>
-                    <br>
-                    <div class="fs-6 text-white">Please contact us if you have any suggestions, MCQ stems, explanations, or problems with the explanations provided.</div>
-                    <br>
-                    <a href="mailto:evokeapps@yahoo.com" class="btn btn-outline-light btn-lg fw-bold">Email Us</a>
-                    <br>
-                    <br>
-                    <a href="https://www.buymeacoffee.com/gulfmcqpro" target="_blank">
-                        <img src="https://img.buymeacoffee.com/button-api/?text=Buy us a book!&amp;emoji=📖&amp;slug=gulfmcqpro&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Poppins&amp;outline_colour=000000&amp;coffee_colour=ffffff">
-                    </a>
-                </div>
+            <div class="col-12 col-lg-10 offset-lg-1 text-center">
+                <div class="fs-4 text-warning">We would love to hear what you think about Gulf MCQ Pro!</div>
+                <br>
+                <div class="fs-6 text-white">Please contact us if you have any suggestions, MCQ stems, explanations, or problems with the explanations provided.</div>
+                <br>
+                <a href="mailto:evokeapps@yahoo.com" class="btn btn-outline-light btn-lg fw-bold">Email Us</a>
+                <br>
+                <br>
+                <div class="fs-6 text-white">If you find the content usefuly, please consider donating to the project.</div>
+                <br>
+                <a href="https://www.buymeacoffee.com/gulfmcqpro" target="_blank">
+                    <img src="https://img.buymeacoffee.com/button-api/?text=Buy us a book!&amp;emoji=📖&amp;slug=gulfmcqpro&amp;button_colour=FFDD00&amp;font_colour=000000&amp;font_family=Poppins&amp;outline_colour=000000&amp;coffee_colour=ffffff">
+                </a>
             </div>
         </div>
     </div>
-    <hr>
     <?php include_once(__DIR__ . '/comp/footer.php'); ?>
     <script defer src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.js" type="text/javascript"></script>
     <script>
