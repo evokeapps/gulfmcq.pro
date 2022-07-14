@@ -33,7 +33,8 @@ if (count($mcqs) == 0) {
                         <li class="breadcrumb-item" aria-current="page">
                             <a href="/" class="text-success">Home</a>
                         </li>
-                        <li class="breadcrumb-item active" aria-current="page">Library · Page <?= $page ?></li>
+                        <li class="breadcrumb-item active" aria-current="page">Library</li>
+                        <li class="breadcrumb-item active" aria-current="page">Page <?= $page ?></li>
                     </ol>
                 </nav>
             </div>
@@ -56,7 +57,7 @@ if (count($mcqs) == 0) {
                         <?php } ?>
                         <br>
                         <div class="text-start">
-                            <a href="/view.php?id=<?= $mcq['_id'] ?>" class="btn btn-text text-success btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-body-text" viewBox="0 0 16 16">
+                            <a href="/view?id=<?= $mcq['_id'] ?>" class="btn btn-text text-success btn-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-body-text" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 0 .5Zm0 2A.5.5 0 0 1 .5 2h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5Zm9 0a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5Zm-9 2A.5.5 0 0 1 .5 4h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Zm5 0a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5Zm7 0a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Zm-12 2A.5.5 0 0 1 .5 6h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5Zm8 0a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5Zm-8 2A.5.5 0 0 1 .5 8h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5Zm7 0a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5Zm-7 2a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 0 1h-8a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5Zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5Z" />
                                 </svg> Discussion</a>
                         </div>
@@ -66,13 +67,14 @@ if (count($mcqs) == 0) {
         </div>
         <div class="row py-5">
             <div class="col text-center">
-                <?php if ($page != 1) { ?><a href="/library.php?page=<?= $page - 1 ?>" class="btn btn-success">Prev Page</a><?php } ?>
-                <?php if (!$lastPage) { ?><a href="/library.php?page=<?= $page + 1 ?>" class="btn btn-success">Next Page</a><?php } ?>
+                <?php if ($page != 1) { ?><a href="/library?page=<?= $page - 1 ?>" class="btn btn-success">Prev</a><?php } ?>
+                <span class="mx-2 mx-md-5 fw-bold text-muted">Page <?=$page ?></span>
+                <?php if (!$lastPage) { ?><a href="/library?page=<?= $page + 1 ?>" class="btn btn-success">Next</a><?php } ?>
             </div>
         </div>
     </div>
     <hr>
     <?php include_once(__DIR__ . '/comp/footer.php'); ?>
-</body>
+</body> 
 
 </html>

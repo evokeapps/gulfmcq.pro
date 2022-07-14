@@ -38,18 +38,24 @@ $mcq = $dao->getMCQ($id);
                 <div class="fs-5">Q. <?= $mcq['stem'] ?></div>
                 <br>
                 <?php foreach (['opt1', 'opt2', 'opt3', 'opt4'] as $index => $option) { ?>
-                    <div class="fs-6 mb-2 text-secondary"><?= $index + 1 . ' ' . $mcq[$option] ?></div>
+                    <div class="fs-5 mb-2 text-secondary"><?= $index + 1 . ' ' . $mcq[$option] ?></div>
                 <?php } ?>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col">
-                <div class="fs-5 fw-bold text-bg-success p-2">
+                <div class="fs-5 fw-bold text-bg-success p-3">
                     Discussion
                 </div>
                 <br>
-                <div class="fs-6" style="white-space: pre-wrap;"><?= $mcq['disc']  ?></div>
+                <?php if(strlen($mcq['disc'])>0) { ?>
+                <div class="fs-5" style="white-space: pre-wrap;"><?= $mcq['disc'] ?></div>
+                <?php } else {?>
+                <div class="alert fs-6 text-center bg-light">We are currently working on the discussion of this question. If you would like to contribute, please email us at <a href="mailto:evokeapps@yahoo.com">evokeapps@yahoo.com</a>. Thank you 🤗!</div>
+                <?php } ?>
+                <br>
+                <small class="text-muted fw-bold">Source(s): <?= strlen($mcq['ref'])>0 ? $mcq['ref'] : 'N/A' ?></small>
             </div>
         </div>
         <br>

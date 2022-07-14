@@ -11,15 +11,15 @@
 <body>
     <?php include_once(__DIR__ . '/comp/header.php'); ?>
     <div class="header">
-        <div class="header-overlay py-5">
-            <div class="container py-5">
+        <div class="header-overlay">
+            <div class="container">
                 <div class="row py-5">
                     <div class="col-12 col-md-10 offset-md-1 text-center">
-                        <div class="fs-1 text-white">Get instant access to a growing collection of comprehensive QBank</div>
+                        <div class="fs-1 text-white">Get instant access to a growing and comprehensive Prometricᵀᴹ QBank</div>
                         <br>
                         <div class="fs-4 text-warning">The best MCQ bank for DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA and PLAB/USMLE like GP exams</div>
                         <br>
-                        <a href="/library.php" class="btn btn-success btn-lg">Browse Library</a>
+                        <a href="/library" class="btn btn-success btn-lg">Browse Library</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
         <div class="row text-center mb-5">
             <div class="col-12 col-md-10 offset-md-1 text-center">
                 <div class="fs-2 text-success">Download our mobile app for a better experience!</div>
-                <img src="/static/img/screenshot.webp" alt="" srcset="" class="img-fluid">
+                <img src="/static/img/screenshot.webp" alt="An app for getting ready for exam using Gulf MCQ Pro which is a free Prometricᵀᴹ Qbank for for DHA, MOH, HAAD, DHCC, OMSB, SLE, QCHP, NHRA, PLAB and USMLE exams to become a GP in UAE, Dubai, Saudi Arabia, Abu Dhabi, Bahrain, Oman and Qatar." srcset="" class="img-fluid">
                 <br>
                 <a href="https://play.google.com/store/apps/details?id=com.evokeapps.gulfmcqpro&amp;utm_source=web&amp;utm_campaign=web&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" style="max-width: 20rem;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/2560px-Google_Play_Store_badge_EN.svg.png" class="img-fluid"></a>
                 <br>
@@ -83,7 +83,7 @@
                     <div class="fs-6 text-light">With our up-to-date question bank, you can prepare for the DHA Exam (Dubai Health Authority), previously known as DOH (Department of Health) to work in Dubai, MOH Exam (Ministry of Health in UAE &amp; Kuwait) where you can work in all Emirates such as Sharjah, Ajman, Umm Al Quwain, Fujairah, and Ras Al Khaimah, DHCC (Dubai Health Care City) to work in Health care city area in Dubai (National Health Regulatory Authority, Bahrain).</div>
                     <br>
                     <br>
-                    <a href="/library.php" class="btn btn-outline-warning btn-lg">Browse Library</a>
+                    <a href="/library" class="btn btn-outline-warning btn-lg">Browse Library</a>
                     <br>
                     <br>
                     <a target="_blank" href="https://play.google.com/store/apps/details?id=com.evokeapps.gulfmcqpro&amp;utm_source=web&amp;utm_campaign=web&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="btn btn-text text-light">Download App</a>

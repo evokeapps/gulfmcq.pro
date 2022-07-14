@@ -1,0 +1,43 @@
+[
+    {
+        "name":"Medicine",
+        "tag":"Medicine"
+    },
+    {
+        "name":"Surgery",
+        "tag":"Surgery"
+    },
+    {
+        "name":"Gynecology",
+        "tag":"Gynecology"
+    },
+    {
+        "name":"Obstetrics",
+        "tag":"Obstetrics"
+    },
+    {
+        "name":"Pediatrics",
+        "tag":"Pediatrics"
+    },
+    {
+        "name":"Emergency Medicine",
+        "tag":"Emergency"
+    },
+    {
+        "name":"Orthopedics",
+        "tag":"Orthopedics"
+    },
+    
+    {
+        "name":"Dermatology",
+        "tag":"Dermatology"
+    },
+    {
+        "name":"Infectious Diseases",
+        "tag":"Infectious"
+    },
+    {
+        "name":"Epidemiology and Statistics",
+        "tag":"Epidemiology Statistics"
+    }
+]

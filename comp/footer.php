@@ -11,9 +11,9 @@
                 <br>
                 <ul class="nav flex-column">
                     <li class="nav-item"><a href="/" class="nav-link text-success">Home</a></li>
-                    <li class="nav-item"><a href="/library.php" class="nav-link text-success">Library</a></li>
+                    <li class="nav-item"><a href="/library" class="nav-link text-success">Library</a></li>
                     <li class="nav-item"><a href="https://www.buymeacoffee.com/gulfmcqpro" target="_blank" class="nav-link text-success">Donate</a></li>
-                    <li class="nav-item"><a href="/404.php" class="nav-link text-success">Privacy Policy</a></li>
+                    <li class="nav-item"><a href="/privacy-policy" class="nav-link text-success">Privacy Policy</a></li>
                     <li class="nav-item"><a href="https://facebook.com/gulfmcqpro" target="_blank" class="nav-link text-success">Facebook</a></li>
                 </ul>
             </div>
