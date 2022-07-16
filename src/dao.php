@@ -43,6 +43,6 @@ class DAO
     }
     function addMCQ($mcq)
     {
-        return self::$db->updateOrInsert($mcq);
+        return self::$db->updateOrInsert($mcq)['_id'];
     }
 }

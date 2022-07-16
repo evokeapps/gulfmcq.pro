@@ -26,8 +26,8 @@ if (isset($_POST['stem']) and strlen($_POST['stem']) > 0) {
     if (isset($_POST['id']) and strlen($_POST['id']) > 0) {
         $mcq['_id'] = $_POST['id'];
     }
-    $id = $api->updateMCQ($mcq);
-    header('Location: /gmp/edit.php?id=' . $id);
+    $id = $dao->addMCQ($mcq);
+    header('location: /admin/edit.php?id=' . $id);
 }
 ?>
 <!DOCTYPE html>
