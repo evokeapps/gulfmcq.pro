@@ -23,19 +23,26 @@ class DAO
     }
     function getPage($page, $pageSize = 10)
     {
-        return self::$queryBuilder->select(['stem', 'opt1', 'opt2', 'opt3', 'opt4', '_id'])->orderBy(['_id' => 'asc'])->limit($pageSize)->skip(($page - 1) * $pageSize)->getQuery()->fetch();
+        return self::$queryBuilder->select(['stem', 'opt1', 'opt2', 'opt3', 'opt4', '_id', 'disc'])->orderBy(['_id' => 'asc'])->limit($pageSize)->skip(($page - 1) * $pageSize)->getQuery()->fetch();
     }
     function getMCQ($id)
     {
         return self::$db->findById($id);
     }
-    function searchFor($query,$page=1){
-        return self::$queryBuilder->search(['stem', 'description'], $query)->orderBy(['searchScore' => 'desc'])->select(['_id', 'stem', 'opt1', 'opt2', 'opt3', 'opt4'])->limit(10)->skip($page-1)->getQuery()->fetch();
+    function searchFor($query, $page = 1)
+    {
+        return self::$queryBuilder->search(['stem', 'description'], $query)->orderBy(['searchScore' => 'desc'])->select(['_id', 'stem', 'opt1', 'opt2', 'opt3', 'opt4'])->limit(10)->skip($page - 1)->getQuery()->fetch();
     }
-    function getCategory($tag,$page=1){
-        return self::$queryBuilder->search(['tags'], $tag)->orderBy(['searchScore' => 'desc'])->select(['_id', 'stem', 'opt1', 'opt2', 'opt3', 'opt4'])->limit(10)->skip($page-1)->getQuery()->fetch();
+    function getCategory($tag, $page = 1)
+    {
+        return self::$queryBuilder->search(['tags'], $tag)->orderBy(['searchScore' => 'desc'])->select(['_id', 'stem', 'opt1', 'opt2', 'opt3', 'opt4'])->limit(10)->skip($page - 1)->getQuery()->fetch();
     }
-    function getCount(){
+    function getCount()
+    {
         return self::$db->count();
+    }
+    function addMCQ($mcq)
+    {
+        return self::$db->updateOrInsert($mcq);
     }
 }

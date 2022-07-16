@@ -1,8 +1,20 @@
 <?php
+session_start();
+if (!isset($_SESSION['user']) or !strlen($_SESSION['user']) > 0) {
+    header('location: /admin/login.php');
+}
 require_once(__DIR__ . '/../src/dao.php');
 $dao = DAO::getInstance();
-$mcqs = $dao->getPage(1);
 $count = $dao->getCount();
+if (isset($_GET['page']) and strlen($_GET['page']) > 0) {
+    $page = intval($_GET['page']);
+    if ($page <= 1) {
+        $page = 1;
+    }
+} else {
+    $page = intval(ceil($count / 10));
+}
+$mcqs = $dao->getPage($page);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +27,8 @@ $count = $dao->getCount();
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
             <a href="/admin/" class="navbar-brand">Gulf MCQ Pro Admin</a>
-            <a href="/admin/backup.php" class="btn btn-danger btn-sm">Backup</a>
+            <a href="/admin/edit.php" class="btn btn-primary btn-sm">New</a>
+            <!-- <a href="/admin/backup.php" class="btn btn-danger btn-sm">Backup</a> -->
         </div>
     </nav>
     <div class="container py-4">
@@ -24,11 +37,11 @@ $count = $dao->getCount();
                 Library: <b><?= $count ?> MCQs</b>
             </div>
             <div class="col text-end">
-                <a href="/admin/edit.php" class="btn btn-primary btn-sm">New</a>
+                <!-- <a href="/admin/index.php?page=<?= $page + 1 ?>" class="btn btn-success btn-sm">Prev Page</a> -->
+                <a href="/admin/index.php?page=<?= $page - 1 ?>" class="btn btn-success btn-sm">Next Page</a>
             </div>
         </div>
-
-        <div class="row">
+        <div class="row mb-4">
             <div class="col">
                 <div class="list-group">
                     <?php foreach ($mcqs as $mcq) { ?>

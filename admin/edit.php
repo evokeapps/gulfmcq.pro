@@ -1,11 +1,15 @@
 <?php
-require_once (__DIR__ . '/../src/api.php') or  die;
+session_start();
+if (!isset($_SESSION['user']) or !strlen($_SESSION['user']) > 0) {
+    header('location: /admin/login.php');
+}
+require_once(__DIR__ . '/../src/dao.php');
 $dao = DAO::getInstance();
 $mcq = [];
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
     try {
-        $mcq = $api->getMCQ($id);
+        $mcq = $dao->getMCQ($id);
     } catch (\Throwable $th) {
         echo $th->getMessage();
     }
@@ -30,19 +34,19 @@ if (isset($_POST['stem']) and strlen($_POST['stem']) > 0) {
 <html lang="en">
 
 <head>
-    <?php include(__DIR__ . '/comp/head.php'); ?>
+    <?php include(__DIR__ . '/../comp/head.php'); ?>
 </head>
 
 <body>
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
-            <a href="/gmp/" class="navbar-brand">Gulf MCQ Pro Admin</a>
+            <a href="/admin/" class="navbar-brand">Gulf MCQ Pro Admin</a>
         </div>
     </nav>
     <div class="container py-4">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/gmp/">Library</a></li>
+                <li class="breadcrumb-item"><a href="/admin/">Library</a></li>
                 <li class="breadcrumb-item active">Edit</li>
             </ol>
         </nav>
